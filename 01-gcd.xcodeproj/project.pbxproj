@@ -15,6 +15,7 @@
 		18DC71341C615CC900E4EC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DC71321C615CC900E4EC32 /* LaunchScreen.storyboard */; };
 		18DC713F1C615CC900E4EC32 /* _1_gcdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC713E1C615CC900E4EC32 /* _1_gcdTests.m */; };
 		18DC714A1C615CC900E4EC32 /* _1_gcdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC71491C615CC900E4EC32 /* _1_gcdUITests.m */; };
+		18DC71591C615D2800E4EC32 /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC71581C615D2800E4EC32 /* ImageDownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18DC71451C615CC900E4EC32 /* 01-gcdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-gcdUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DC71491C615CC900E4EC32 /* _1_gcdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_gcdUITests.m; sourceTree = "<group>"; };
 		18DC714B1C615CC900E4EC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DC71571C615D2800E4EC32 /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		18DC71581C615D2800E4EC32 /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				18DC71281C615CC900E4EC32 /* AppDelegate.m */,
 				18DC712A1C615CC900E4EC32 /* ViewController.h */,
 				18DC712B1C615CC900E4EC32 /* ViewController.m */,
+				18DC71571C615D2800E4EC32 /* ImageDownloader.h */,
+				18DC71581C615D2800E4EC32 /* ImageDownloader.m */,
 				18DC712D1C615CC900E4EC32 /* Main.storyboard */,
 				18DC71301C615CC900E4EC32 /* Assets.xcassets */,
 				18DC71321C615CC900E4EC32 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				18DC712C1C615CC900E4EC32 /* ViewController.m in Sources */,
 				18DC71291C615CC900E4EC32 /* AppDelegate.m in Sources */,
+				18DC71591C615D2800E4EC32 /* ImageDownloader.m in Sources */,
 				18DC71261C615CC900E4EC32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
